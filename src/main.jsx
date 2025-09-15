@@ -7,11 +7,11 @@ import MainPage from './components/MainPage.jsx'
 import ServiceSection from './components/ServiceSection.jsx'
 import FormContact from './components/FormContact.jsx'
 import Footer from './components/Footer.jsx'
-import iconAja from './assets/aja-icon-small.png'
+import OpinionesClientes from './components/OpinionesClientes.jsx'
+
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <link rel="icon" type="image/png" href="assets/aja-icon-small.png"></link>
+  <StrictMode>    
     <Navbar />
     <MainPage />
     <ServiceSection />
@@ -21,7 +21,7 @@ createRoot(document.getElementById('root')).render(
                 <div>
                     <h2 class="text-4xl font-bold text-gray-800 mb-6">¿Por qué elegirnos?</h2>
                     <p class="text-lg text-gray-600 mb-8">
-                        Somos un equipo de abogados especializados en derecho laboral con más de 15 años de experiencia 
+                        Somos un equipo de abogados especializados en derecho laboral con más de 5 años de experiencia 
                         defendiendo los derechos de los trabajadores.
                     </p>
                     <div class="space-y-6">
@@ -33,7 +33,7 @@ createRoot(document.getElementById('root')).render(
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-800">Experiencia Comprobada</h4>
-                                <p class="text-gray-600">Más de 1,000 casos exitosos en derecho laboral</p>
+                                <p class="text-gray-600">Más de 200 casos exitosos en derecho laboral</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
@@ -55,19 +55,19 @@ createRoot(document.getElementById('root')).render(
                             </div>
                             <div>
                                 <h4 class="font-semibold text-gray-800">Sin Costos Ocultos</h4>
-                                <p class="text-gray-600">Transparencia total en nuestros honorarios</p>
-                            </div>
+                                <p class="text-gray-600">Lo pactado se firma en contrato para su seguridad y fiabilidad.</p>
+                            </div>                            
                         </div>
                     </div>
                 </div>
                 <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-2xl p-8">
                     <div class="grid grid-cols-2 gap-6 text-center">
                         <div>
-                            <div class="text-3xl font-bold text-blue-600 mb-2">15+</div>
+                            <div class="text-3xl font-bold text-blue-600 mb-2">5+</div>
                             <div class="text-gray-600">Años de experiencia</div>
                         </div>
                         <div>
-                            <div class="text-3xl font-bold text-blue-600 mb-2">1000+</div>
+                            <div class="text-3xl font-bold text-blue-600 mb-2">200+</div>
                             <div class="text-gray-600">Casos exitosos</div>
                         </div>
                         <div>
@@ -83,7 +83,8 @@ createRoot(document.getElementById('root')).render(
             </div>
         </div>
     </section>
-    <FormContact />
+    <OpinionesClientes />
+    <FormContact />    
     <Footer />
   </StrictMode>,
 )

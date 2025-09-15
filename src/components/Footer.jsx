@@ -26,7 +26,7 @@ function Footer(){
                         <div>
                             <h4 class="text-lg font-semibold mb-4">Contacto</h4>
                             <div class="text-gray-300 space-y-2">
-                                <p>📍 Av. Normalistas 248-interior 1, Colinas de La Normal, 44270 Guadalajara, Jal.</p>
+                                <a href='https://maps.app.goo.gl/S6LrALcrvHcQeJ828' className='flex' target="_blank">📍 Av. Normalistas 248-interior 1, Colinas de La Normal, 44270 Guadalajara, Jal.</a>
                                 <p>📞 +52 33 3789 5895</p>
                                 <p>✉️ asesoresajajuridicos@gmail.com </p>
                                 <a href="https://www.instagram.com/aja.asesores.juridicos.as?utm_source=ig_web_button_share_sheet&igsh=amVhNnNiOGd1NThl" className='flex' target="_blank">

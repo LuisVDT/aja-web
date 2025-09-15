@@ -10,8 +10,8 @@ function MainPage(){
                                 Expertos en <span class="text-yellow-300">Derecho Laboral</span>
                             </h1>
                             <p class="text-xl mb-8 text-blue-100">
-                                Protegemos tus derechos laborales con más de 15 años de experiencia. 
-                                Asesoría especializada, resultados garantizados.
+                                Protegemos tus derechos como trabajador desde hace más de 5 años.
+                                Con enfoque Patronal y Obrero, contamos con garantía de nuestro trabajo.
                             </p>
                             <div class="flex flex-col sm:flex-row gap-4">
                                 <a href="#contacto" class="bg-yellow-400 text-blue-900 px-8 py-4 rounded-lg font-semibold hover:bg-yellow-300 transition-colors text-center cursor-pointer">
@@ -37,15 +37,13 @@ function MainPage(){
             <section id="servicios" class="py-20 bg-gray-50">
                 <div class="container mx-auto px-6">
                     <div class="text-center mb-16">
-                        <h2 class="text-4xl font-bold text-gray-800 mb-4">Nuestros Servicios</h2>
-                        <p class="text-xl text-gray-600 max-w-3xl mx-auto">
-                            Ofrecemos asesoría integral en todas las áreas del derecho laboral
-                        </p>
+                        <h2 class="text-4xl font-bold text-gray-800 mb-4">Servicios más solicitados</h2>
+                        
                     </div>
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
                             <div class="text-4xl mb-4">📋</div>
-                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Despidos Injustificados</h3>
+                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Defensa patronal</h3>
                             <p class="text-gray-600 mb-6">
                                 Te ayudamos a recuperar tus derechos ante despidos improcedentes y reclamar las indemnizaciones correspondientes.
                             </p>
@@ -57,7 +55,7 @@ function MainPage(){
                         </div>
                         <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
                             <div class="text-4xl mb-4">💰</div>
-                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Reclamación de Salarios</h3>
+                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Defensa de trabajadores</h3>
                             <p class="text-gray-600 mb-6">
                                 Recuperamos salarios impagos, horas extras, vacaciones y prestaciones laborales que te corresponden.
                             </p>
@@ -69,7 +67,7 @@ function MainPage(){
                         </div>
                         <div class="bg-white rounded-xl shadow-lg p-8 hover:shadow-xl transition-shadow">
                             <div class="text-4xl mb-4">🛡️</div>
-                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Acoso Laboral</h3>
+                            <h3 class="text-2xl font-bold mb-4 text-gray-800">Pensiónes y afores</h3>
                             <p class="text-gray-600 mb-6">
                                 Defendemos tu dignidad en el trabajo y te ayudamos a enfrentar situaciones de acoso o discriminación.
                             </p>

@@ -2,8 +2,6 @@ import { useEffect, useState } from 'react';
 import SubTabCard from './SubTabCard';
 
 const SubTabs = ({ currentSubtabs, openModal }) => {
-  const [showCards, setShowCards] = useState(false);
-
   const subtabsData = {
     first: {
       title: 'Categorías de Derecho Laboral',
@@ -114,24 +112,17 @@ const SubTabs = ({ currentSubtabs, openModal }) => {
     }
   };
 
-  useEffect(() => {
-    if (currentSubtabs) {
-      setShowCards(true);
-    } else {
-      setShowCards(false);
-    }
-  }, [currentSubtabs]);
-
+ 
+  
   if (!currentSubtabs || !subtabsData[currentSubtabs]) return null;
-
   const currentData = subtabsData[currentSubtabs];
 
   return (
-    <div id={`${currentSubtabs}-subtabs`} className={`subtabs-container mb-8 ${showCards ? '' : 'hidden'}`}>
+    <div className="subtabs-container mb-8">
       <h2 className="text-2xl font-semibold text-gray-800 mb-6 text-center">{currentData.title}</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
         {currentData.cards.map((card, index) => (
-          <SubTabCard 
+          <SubTabCard
             key={index}
             {...card}
             color={currentData.color}

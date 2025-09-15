@@ -21,8 +21,10 @@ function FormContact(){
                                     </svg>
                                 </div>
                                 <div>
+                                    <a href="https://maps.app.goo.gl/S6LrALcrvHcQeJ828" target="_blank">
                                     <h4 class="font-semibold text-gray-800">Dirección</h4>
                                     <p class="text-gray-600">Av. Normalistas 248-interior 1, Colinas de La Normal, 44270 Guadalajara, Jal.</p>
+                                    </a>
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
@@ -43,8 +45,10 @@ function FormContact(){
                                     </svg>
                                 </div>
                                 <div>
+                                    <a href="mailto:asesoresajajuridicos@gmail.com?subject=Consulta&body=Hola,%20quiero%20una%20asesoría%20sobre%20mi%20problema%20legal...">
                                     <h4 class="font-semibold text-gray-800">Email</h4>
-                                    <p class="text-gray-600">polla@gmail.com</p>
+                                    <p class="text-gray-600">asesoresajajuridicos@gmail.com</p>
+                                    </a>
                                 </div>
                             </div>
                             <div class="flex items-start space-x-4">
@@ -63,7 +67,7 @@ function FormContact(){
 
                     {/* Formulario de contacto */}
                     <div class="bg-white rounded-xl shadow-lg p-8">
-                        <h3 class="text-2xl font-bold text-gray-800 mb-6">Envíanos un mensaje</h3>
+                        <h3 class="text-2xl font-bold text-gray-800 mb-6"> Cuéntanos tu situación y con gusto te ayudamos.</h3>
                         <form id="contact-form" class="space-y-6">
                             <div class="grid md:grid-cols-2 gap-6">
                                 <div>
